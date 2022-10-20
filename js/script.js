@@ -8,7 +8,7 @@ document.getElementById("submit").addEventListener("click", function nishant() {
   let addresso = document.getElementById("address").value;
   let pincodeo = document.getElementById("pincode").value;
   let gendero = document.getElementsByName("gender");
-  
+
   // to get the select radio button value
   if (gendero[0].checked) {
     gendero = gendero.value = "MALE"
@@ -16,18 +16,18 @@ document.getElementById("submit").addEventListener("click", function nishant() {
   else if (gendero[1].checked) {
     gendero = gendero.value = "FEMALE"
   }
-  else if (gendero[2].checked){
+  else if (gendero[2].checked) {
     gendero = gendero.value = "OTHER"
   }
   else {
     gendero = gendero.value = "Not selected"
   }
-  
+
   let food1o = document.getElementById("food1").value;
   let food2o = document.getElementById("food2").value;
   let stateo = document.getElementById("state").value;
   let countryo = document.getElementById("country").value;
-  
+
   const data = {
     fname: fnameo,
     lname: lnameo,
@@ -38,7 +38,7 @@ document.getElementById("submit").addEventListener("click", function nishant() {
     state: stateo,
     country: countryo
   }
-  
+
   let dataTable = "";
   dataTable += "<tr>";
   dataTable += "<td>" + data.fname + "</td>";
