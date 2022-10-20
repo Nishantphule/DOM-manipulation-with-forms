@@ -1,0 +1,54 @@
+body {
+  background-color: #BCFAE2;
+}
+
+.common-align{
+  text-align: center;
+}
+
+#title{
+  background-color: #A6C6DE;
+  color: #A6DED8;
+}
+
+img{
+  width: 25px;
+  border-radius: 50%;
+  margin-right: 2px;
+}
+
+.table-header,th{
+  background-color: #A6C6DE;
+}
+
+footer{
+  background-color: #A6C6DE;
+}
+
+/* form */
+
+.form-group{
+  padding: 5%;
+}
+
+.common-padding{
+  padding: 2% 0;
+}
+
+input[type="text"],textarea,select{
+  background-color: #C4EDF5;
+  width: 100%;
+  margin: 0 5px;
+}
+
+
+label{
+  color:#BCCFFA;
+  font-size: 20px;
+}
+
+.req::after {
+  content: "*";
+  color: red;
+}
+
