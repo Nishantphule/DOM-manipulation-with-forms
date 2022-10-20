@@ -35,6 +35,8 @@ footer{
 
 .form-group{
   padding: 5%;
+  border: #BCCFFA 5px solid;
+  border-radius: 2%;
 }
 
 .common-padding{
