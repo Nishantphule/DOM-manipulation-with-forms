@@ -25,6 +25,7 @@ img{
 
 .table-header,th{
   background-color: #A6C6DE;
+  margin-top: 5%;
 }
 
 footer{
@@ -37,6 +38,7 @@ footer{
   padding: 5%;
   border: #BCCFFA 5px solid;
   border-radius: 2%;
+  background-color: #A6C6DE;
 }
 
 .common-padding{
@@ -51,7 +53,7 @@ input[type="text"],textarea,select{
 
 
 label{
-  color:#BCCFFA;
+  color:#BCFAE2;
   font-size: 20px;
 }
 
