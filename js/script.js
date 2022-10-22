@@ -1,7 +1,30 @@
 "use strict"
+const tableBox = document.createElement("table")
+tableBox.classList = "table table-bordered table-sm"
+const table = document.querySelector(".table")
+table.appendChild(tableBox)
+
+const tableHead = document.createElement("thead")
+tableBox.appendChild(tableHead)
+
+const headRow = document.createElement("tr")
+tableHead.appendChild(headRow)
+
+let headArr = ["First Name", "Last Name", "Address", "Pincode", "Gender", "Food", "State", "Country"]
+headArr.forEach(element => {
+  const headTitle = document.createElement("th")
+  headTitle.innerText = element
+  headRow.append(headTitle)
+});
+
+const tableBody = document.createElement("tbody")
+tableBody.id = "data"
+tableBox.appendChild(tableBody)
+
+
 // creating a function for button submit 
 // when u click on submit button it will collect the data
-
+// getting element and storing in table
 document.getElementById("submit").addEventListener("click", function nishant() {
   let fnameo = document.getElementById("first-name").value;
   let lnameo = document.getElementById("last-name").value;
